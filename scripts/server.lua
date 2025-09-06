@@ -1,6 +1,6 @@
 -- This is a script you would create in ServerScriptService, for example.
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Cmdr = require(ReplicatedStorage.Cmdr)
+local Cmdr = require(ReplicatedStorage:WaitForChild("Cmdr"))
 local hooks = script.Hooks
 
 Cmdr:RegisterDefaultCommands() -- This loads the default set of commands that Cmdr comes with. (Optional) 
